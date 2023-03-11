@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            border: 10px dotted black;
+            padding: 15px;
+            background: blueviolet;
+            background-clip: border-box;
+        }
+        #two{
+            border: 10px dotted black;
+            padding: 15px;
+            background:greenyellow;
+            background-clip: content-box;
+
+        }
+        #three{
+            border: 10px dotted black;
+            padding: 15px;
+            background:red;
+            background-clip:padding-box;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>The background-clip Property</h1>
+    <div id="one"><p>The background extends behind the border.</p></div>
+    <h2>background-clip:content box</h2>
+    <div id="two"><p>The background extends to the edge of the content box.</p></div>
+    <h3>the  background-clip padding box</h3>
+    <div id="three"><p>The background extends to the inside edge of the border.</p></div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+margin: 0;
+padding: 0;
+}
+
+ul
+{
+float: right;
+list-style-type: none;
+
+}
+
+ul li{
+		display: inline-block;
+		
+		
+}
+
+ul li a{
+		color: red;
+		width: 95%
+		padding: 5px 4px;
+		text-decoration: none;
+		height: 20px
+}
+
+
+
+#div2{
+
+float: left;
+list-style-type: none;
+background-color: red;
+color: white;
+
+
+}
+li1{
+border: 1px;
+width: 10%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
